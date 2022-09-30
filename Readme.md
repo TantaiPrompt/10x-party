@@ -26,7 +26,7 @@ Run the following command to create your SQLite database file. This also creates
 
 ```
 
-npx prisma migrate dev --name init
+npx prisma migrate dev --name init --skip-seed
 
 ```
 

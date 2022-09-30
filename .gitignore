@@ -1,5 +1,10 @@
 node_modules/
 .next/
+
 # prisma
 prisma/dev.db
+prisma/migrations/
+prisma/dev.db-journal
+
+# local env files
 .env.*
