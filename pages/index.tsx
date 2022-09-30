@@ -39,7 +39,7 @@ const Party: React.FC<Props> = (props) => {
           textAlign={"center"}
         >
           <Text fontSize={"lg"} color={"black.200"}>
-            Lorem ipsum dolor sit amet. {" "}
+            Lorem ipsum dolor sit amet.{" "}
             <Link color={"blue.400"}>peace</Link> ✌️
           </Text>
           <Text
@@ -51,8 +51,8 @@ const Party: React.FC<Props> = (props) => {
           </Text>
         </Heading>
         <GroupPagination
-          groups={props.groups}
-          totalGroup={props.totalGroup}
+          groups={props.groups || []}
+          totalGroup={props.totalGroup||1}
         />
       </Box>
     </Layout>
